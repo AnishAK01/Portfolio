@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className="border border-black w-[98%] h-5/6 m-auto mt-4 rounded-2xl px-4 relative shadow-md overflow-hidden flex">
+    <div className="border border-black w-[98%] h-4/5 m-auto mt-4 rounded-2xl px-4 relative shadow-md overflow-hidden flex">
       {/* h1 behind - z-10 */}
       <h1 className="text-7xl md:text-[10rem] text-center tracking-[16px] text-green-500 bg-green-900 p-4 absolute inset-0  items-center z-10 opacity-50
       bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text font-bold">
@@ -25,7 +25,7 @@ const Banner = () => {
           />
         </div>
         <div>
-          <button><img src="" alt="" /></button>
+          <button className=' mb-4 '><img src="Icons/down-arrow_10255541.png" className='h-14' alt="" /></button>
         </div>
       </div>
     </div>
