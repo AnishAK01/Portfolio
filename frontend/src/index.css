@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  /* font-family: 'Inter', sans-serif; */
+  overflow-x: hidden;
+  background: url(../public/backgroudMain/mainBG.jpg) fixed  no-repeat;
+  background-size: cover;
+   font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+h1{
+ font-family:  "Montserrat Alternates";
+}
